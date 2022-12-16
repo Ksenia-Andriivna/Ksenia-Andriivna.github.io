@@ -1,0 +1,1093 @@
+@import './reset/reset';
+@import './fonts/fonts';
+
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1440px;
+    height: 700px;
+    background-image: url(../images/Background.png);
+    position: relative;
+    .logo{
+        position: absolute;
+        top: 46px;
+        left: 248px;
+        float: left;
+        .logo__link{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .registration{
+        position: absolute;
+        top: 40px;
+        right: 291px;
+        .registration__login{
+            width: 82px;
+            height: 36px;
+            border-radius: 40px;
+            text-align: center;
+            line-height: 37px;
+            float: left;
+            .registration__login__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .registration__signup{
+            width: 90px;
+            height: 36px;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            text-align: center;
+            line-height: 34px;
+            float: left;
+            .registration__signup__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    .promo{
+        position: absolute;
+        top: 224px;
+        bottom: 224px;
+        right: 485px;
+        left: 485px;
+        width: 470px;
+        height: 253px;
+        text-align: center;
+        .promo__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 63px;
+            color: #FFFFFF;
+            margin-bottom: 28px;
+        }
+        .promo__descr{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 24px;
+            color: #F7F3F2;
+            margin-bottom: 33px;
+        }
+        .promo__btn{
+            width: 227px;
+            height: 40px;
+            background-color: #FF4E50;
+            border-radius: 40px;
+            border: none;
+            text-align: center;
+            line-height: 44px;
+            margin: 0 122px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }   
+}
+
+main{
+    width: 941px;
+    margin: 89px 250px 107px;
+    .how-works{
+        height: 461px;
+        margin-bottom: 95px;
+        .how-works__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+            color: #444444;
+        }
+        .how-works__step1{
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step\ 1\ image.png);
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            float: left;
+            .how-works__step1__btn{
+                width: 70px;
+                height: 20px;
+                background: #FF4E50;
+                border-radius: 40px;
+                border: none;
+                text-align: center;
+                margin-bottom: 22px;
+                margin-left: 25px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 24px;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            .how-works__step1__title{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26px;
+                color: #FFFFFF;
+                margin: 0 25px 24px 25px;
+            }
+            .how-works__step1__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #E3E3E3;
+                margin: 0 25px 21px 25px;
+            }
+        }
+        .how-works__step2{
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step\ 2\ image.png);
+            margin: 35px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            float: left;
+            .how-works__step2__btn{
+                width: 70px;
+                height: 20px;
+                background: #FF4E50;
+                border-radius: 40px;
+                border: none;
+                text-align: center;
+                margin-bottom: 23px;
+                margin-left: 25px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 22px;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            .how-works__step2__title{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26px;
+                color: #FFFFFF;
+                margin: 0 25px 17px 25px;
+            }
+            .how-works__step2__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #E3E3E3;
+                margin: 0 25px 21px 25px;
+            }
+        }
+        .how-works__step3{
+            width: 300px;
+            height: 400px;
+            background-image: url(../images/Step\ 3\ image.png);
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .how-works__step3__btn{
+                width: 70px;
+                height: 20px;
+                background: #FF4E50;
+                border-radius: 40px;
+                border: none;
+                text-align: center;
+                margin-bottom: 22px;
+                margin-left: 25px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 24px;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            .how-works__step3__title{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26px;
+                color: #FFFFFF;
+                margin: 0 25px 24px 25px;
+            }
+            .how-works__step3__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #E3E3E3;
+                margin: 0 25px 21px 25px;
+            }
+        }    
+    }
+    .partner{
+        height: 361px;
+        margin-bottom: 95px;
+        .partner__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            color: #444444;
+            text-align: center;
+        }
+        .partner__person1{
+            width: 221px;
+            height: 205px;
+            margin-top: 35px;
+            margin-right: 19px;
+            text-align: center;
+            float: left;
+            .partner__person1__name{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                margin-top: 19px;
+                margin-bottom: 21px;
+            }
+            .partner__person1__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #666666;
+            }
+        }
+        .partner__person2{
+            width: 221px;
+            height: 205px;
+            margin-top: 35px;
+            margin-right: 19px;
+            text-align: center;
+            float: left;
+            .partner__person2__name{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                margin-top: 19px;
+                margin-bottom: 21px;
+            }
+            .partner__person2__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #666666;
+            }
+        }
+        .partner__person3{
+            width: 221px;
+            height: 224px;
+            margin-top: 35px;
+            margin-right: 19px;
+            text-align: center;
+            float: left;
+            .partner__person3__name{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                margin-top: 19px;
+                margin-bottom: 26px;
+            }
+            .partner__person3__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #666666;
+            }
+        }
+        .partner__person4{
+            width: 221px;
+            height: 224px;
+            margin-top: 35px;
+            margin-bottom: 37px;
+            text-align: center;
+            float: left;
+            .partner__person4__name{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                margin-top: 19px;
+                margin-bottom: 26px;
+            }
+            .partner__person4__descr{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 14px;
+                color: #666666;
+            }
+        }
+        .partner__btn{
+            width: 180px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 2px solid #FF4E50;
+            border-radius: 40px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FF4E50;
+            text-decoration: none;
+        }
+    }
+    .ideas{
+        height: 1031px;
+        margin-bottom: 95px;
+        .ideas__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+            color: #444444;
+            margin-bottom: 35px;
+        }
+        .ideas__sport{
+            width: 300px;
+            height: 310px;
+            background-image: url(../images/1.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin-right: 20px;
+            .ideas__sport__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__health{
+            width: 300px;
+            height: 310px;
+            background-image: url(../images/2.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin-right: 20px;
+            .ideas__health__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__extreme{
+            width: 300px;
+            height: 310px;
+            background-image: url(../images/3.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ideas__extreme__link{
+                width: 187px;
+                height: 54px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__game{
+            width: 300px;
+            height: 310px;
+            background-image: url(../images/4.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin-top: 20px;
+            margin-right: 20px;
+            .ideas__game__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__culture{
+            width: 620px;
+            height: 310px;
+            background-image: url(../images/5.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .ideas__culture__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__relax{
+            width: 620px;
+            height: 310px;
+            background-image: url(../images/6.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            margin-top: 20px;
+            margin-right: 20px;
+            .ideas__relax__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+        .ideas__travel{
+            width: 300px;
+            height: 310px;
+            background-image: url(../images/7.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .ideas__travel__link{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    .interests{
+        width: 482px;
+        height: 158px;
+        margin: 0 auto;
+        .interests__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+            color: #444444;
+            margin-bottom: 53px;
+        }
+        .interests__descr{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 14px;
+            text-align: center;
+            color: #666666;
+        }
+        .interests__form__input{
+            width: 298px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 1px solid #D4D4D4;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            border-radius: 3px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px;
+            color: #999999;
+            padding-left: 13px;
+            padding-top: 5px;
+            margin-top: 25px;
+
+        }
+        .interests__form__btn{
+            width: 172px;
+            height: 40px;
+            border: none;
+            background-color: #FF4E50;
+            border-radius: 40px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            padding-top: 3px;
+            padding-left: 10px;
+            margin-left: 6px;
+        }
+    }
+}
+
+hr{
+    height: 3px;
+    background: #FF4E50;  
+}
+
+footer{
+    height: 224px;
+    margin: 36px 248px;
+    display: flex;
+    .footer-logo{
+        .footer-logo__link{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FF4E50;
+            text-decoration: none;
+        }
+    }
+    .menu{
+        width: 114px;
+        height: 156px;
+        margin: 0 123px;
+        display: flex;
+        flex-direction: column;
+        .menu__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+            padding-top: 2px;
+            margin-bottom: 3px;
+        }
+        .menu__item{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #999999;
+            text-decoration: none;
+            margin-top: 13px;
+        }
+    }
+    .partners{
+        margin: 2px 288px 0 2px;
+        .partners__title{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+        }
+    }
+    .designed-by{
+        width: 110px;
+        margin-top: 3px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        .designed-by__text{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            color: #CCCCCC;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    body{
+        width: 768px;
+    }
+    header{
+        width: 768px;
+        background-position: center;
+        .logo{
+            left: 48px;
+        }
+        .registration{
+            right: 50px;
+        }
+        .promo{
+            left: 149px;
+        }
+    }
+    main{
+        width: 748px;
+        margin: 89px 10px 105px;
+        .how-works{
+            .how-works__title{
+                font-size: 22px;
+            }
+            .how-works__step1{
+                width: 236px;
+                .how-works__step1__btn{
+                    margin-left: 20px;
+                    margin-bottom: 47px;
+                }
+                .how-works__step1__title{
+                    margin-left: 20px;
+                    margin-bottom: 30px;
+                    line-height: 14px;
+                }
+                .how-works__step1__descr{
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+            .how-works__step2{
+                width: 236px;
+                .how-works__step2__btn{
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+                .how-works__step2__title{
+                    margin-left: 20px;
+                    margin-bottom: 25px;
+                    line-height: 14px;
+                }
+                .how-works__step2__descr{
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+            .how-works__step3{
+                width: 236px;
+                .how-works__step3__btn{
+                    margin-left: 20px;
+                    margin-bottom: 47px;
+                }
+                .how-works__step3__title{
+                    margin-left: 20px;
+                    margin-bottom: 30px;
+                    line-height: 14px;
+                }
+                .how-works__step3__descr{
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .partner{
+            position: relative;
+            margin-bottom: 341px;
+            .partner__title{
+                font-size: 22px;
+            }
+            .partner__person1{
+                position: absolute;
+                width: 236px;
+                margin-left: 128px;
+            }
+            .partner__person2{
+                position: absolute;
+                width: 236px;
+                margin-left: 128px;
+                top: 291px;
+            }
+            .partner__person3{
+                position: absolute;
+                width: 236px;
+                margin-left: 384px;
+            }
+            .partner__person4{
+                position: absolute;
+                width: 236px;
+                margin-left: 384px;
+                top: 291px;
+                .partner__person4__name{
+                    margin-bottom: 22px;
+                }
+            }
+            .partner__btn{
+                position: absolute;
+                top: 572px;
+                left: 284px;
+            }
+        }
+        .ideas{
+            .ideas__title{
+                font-size: 22px;
+            }
+            .ideas__sport{
+                width: 236px;
+                background-position-x: -41px;
+                .ideas__sport__link{
+                    width: 206px;
+                    margin-top: -30px;
+                }
+            }
+            .ideas__health{
+                width: 236px;
+                background-position-x: -41px;
+                .ideas__health__link{
+                    width: 206px;
+                    margin-top: -4px;
+                }
+            }
+            .ideas__extreme{
+                width: 236px;
+                background-position-x: -20px;
+                .ideas__extreme__link{
+                    width: 206px;
+                    margin-top: -6px;
+                }
+            }
+            .ideas__game{
+                width: 236px;
+                background-position-x: -30px;
+                .ideas__game__link{
+                    width: 206px;
+                    margin-top: -4px;
+                }
+            }
+            .ideas__culture{
+                width: 492px;
+                background-position-x: -70px;
+                .ideas__culture__link{
+                    margin-top: -4px;
+                }
+            }
+            .ideas__relax{
+                width: 492px;
+                .ideas__relax__link{
+                    margin-top: -4px;
+                }
+            }
+            .ideas__travel{
+                width: 236px;
+                background-image: url(../images/7-1.png);
+                .ideas__travel__link{
+                    width: 206px;
+                    margin-top: -6px;
+                }
+            }
+        }
+        .interests{
+           .interests__title{
+            font-size: 22px;
+            margin-bottom: 50px;
+           } 
+        }
+    }
+    footer{
+        margin: 36px 39px;
+        .menu{
+            margin:0 0 0 108px;
+        }
+        .partners{
+            margin: 0px 119px 0 56px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        width: 320px;
+    }
+    header{
+        width: 320px;
+        height: 540px;
+        background-image: url(../images/Background-mob.png);
+        .logo{
+            top: 154px;
+            left: 86px;
+        }
+        .registration{
+            top: 20px;
+            right: 83px;
+        }
+        .promo{
+            left: 0px;
+            top: 204px;
+            width: 320px;
+            .promo__title{
+                font-size: 30px;
+                line-height: 37px;
+                margin-bottom: 4px;
+            }
+            .promo__descr{
+                width: 280px;
+                font-size: 18px;
+                margin-left: 20px;
+                line-height: 25px;
+                margin-bottom: 15px;
+            }
+            .promo__btn{
+                width: 280px;
+                margin-left: 21px;
+                margin-right: 0;
+                line-height: 41px;
+            }
+        }
+    }
+    main{
+        width: 320px;
+        padding: 0 10px;
+        margin: 31px 0 42px;
+        .how-works{
+            height: 781px;
+            margin-bottom: 40px;
+            .how-works__title{
+                width: 300px;
+            }
+            .how-works__step1{
+                width: 300px;
+                height: 240px;
+                margin-top: 13px;
+                background-image: url(../images/step1mob.png);
+                .how-works__step1__btn{
+                    margin-bottom: 47px;
+                }
+                .how-works__step1__title{
+                    margin-bottom: 25px;
+                }
+                .how-works__step1__descr{
+                    width: 250px;
+                }
+            }
+            .how-works__step2{
+                width: 300px;
+                height: 240px;
+                margin: 10px 0;
+                background-image: url(../images/step2mob.png);
+                .how-works__step2__btn{
+                    margin-bottom: 30px;
+                }
+                .how-works__step2__title{
+                    margin-bottom: 25px;
+                }
+                .how-works__step2__descr{
+                    width: 250px;
+                }
+            }
+            .how-works__step3{
+                width: 300px;
+                height: 240px;
+                margin-top: 13px;
+                background-image: url(../images/step3mob.png);
+                .how-works__step3__btn{
+                    margin-bottom: 47px;
+                }
+                .how-works__step3__title{
+                    margin-bottom: 25px;
+                }
+                .how-works__step3__descr{
+                    width: 250px;
+                }
+            }
+        }
+        .partner{
+            height: 1033px;
+            margin-bottom: 32px;
+            .partner__title{
+                line-height: 27px;
+                width: 300px;
+            }
+            .partner__person1{
+                position: relative;
+                margin-left: 32px;
+                margin-top: 14px;
+            }
+            .partner__person2{
+                position: relative;
+                margin-left: 32px;
+                margin-top: -35px;
+            }
+            .partner__person3{
+                position: absolute;
+                margin-left: 32px;
+                margin-top: 235px;
+            }
+            .partner__person4{
+                position: relative;
+                margin-left: 32px;
+                margin-top: 15px;
+            }
+            .partner__btn{
+                width: 280px;
+                position: relative;
+                top: 272px;
+                left: 0;
+            }
+        }
+        .ideas{
+            width: 280px;
+            height: 990px;
+            margin-bottom: 32px;
+            .ideas__title{
+                margin-left: 20px;
+                line-height: 27px;
+            }
+            .ideas__sport{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/1mob.png);
+                background-position-x: 0;
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+            .ideas__health{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/2mob.png);
+                background-position-x: 0;
+                margin-bottom: 11px;
+                margin-right: 0;
+            }
+            .ideas__extreme{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/3mob.png);
+                background-position-x: 0;
+                margin-right: 0;
+            }
+            .ideas__game{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/4mob.png);
+                background-position-x: 0;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-right: 0;
+            }
+            .ideas__culture{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/5mob.png);
+                background-position-x: 0;
+                margin-right: 0;
+            }
+            .ideas__relax{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/6mob.png);
+                background-position-x: 0;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                margin-right: 0;
+            }
+            .ideas__travel{
+                width: 300px;
+                height: 120px;
+                background-image: url(../images/7mob.png);
+                background-position-x: 0;
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+        }
+        .interests{
+            width: 300px;
+            height: 192px;
+            .interests__title{
+                width: 280px;
+                line-height: 27px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+            .interests__descr{
+                width: 303px;
+            }
+            .interests__form__input{
+                width: 280px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                margin-left: 11px;
+            }
+            .interests__form__btn{
+                width: 280px;
+                margin: 0;
+                padding-left: 16px;
+                margin-left: 10px;
+            }
+        }
+    }
+    footer{
+        width: 320px;
+        height: 204px;
+        margin: 18px 0;
+        display: block;
+        text-align: center;
+        .menu{
+            width: 241px;
+            height: 88px;
+            margin-left: 40px;
+            position: relative;
+            display: flow-root;
+            .menu__title{
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
+            .menu__item{
+                line-height: 27px;
+                padding-right: 5px;
+                padding-left: 4px;
+            }
+        }
+        .partners{
+            width: 320px;
+            margin: 0;
+        }
+        .designed-by{
+            width: 320px;
+            margin: 0;
+            display: block;
+            margin-top: 14px;
+        }
+    }
+}
